@@ -1,0 +1,32 @@
+{
+  "jobs": [
+    {
+      "id": "running-right",
+      "status": "complete",
+      "output_path": "decoded/running-right.png"
+    },
+    {
+      "id": "running-left",
+      "status": "complete",
+      "output_path": "decoded/running-left.png",
+      "mirror_policy": {
+        "may_derive_from": "running-right"
+      },
+      "source_path": "decoded/running-right.png",
+      "derived_from": "running-right",
+      "completed_at": "2026-09-21T03:38:50.433688+00:00",
+      "metadata": {
+        "width": 2172,
+        "height": 724,
+        "mode": "RGBA",
+        "format": "PNG"
+      },
+      "mirror_decision": {
+        "approved": true,
+        "approved_at": "2026-09-21T03:38:50.433688+00:00",
+        "note": "The approved source shows a screen-left foreground foot with its big toe toward the image middle. Framewise mirroring produces the screen-right counterpart with the big toe still toward the image middle, preserving eight-frame timing.",
+        "transform": "framewise-horizontal-mirror-preserving-order"
+      }
+    }
+  ]
+}

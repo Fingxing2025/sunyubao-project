@@ -1,0 +1,21 @@
+{
+  "installed": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "decision": "reject",
+      "reason": "Near leg remains forward; incomplete arm reversal."
+    },
+    {
+      "attempt": 2,
+      "decision": "reject",
+      "reason": "Arm reversal improved, near leg repeats same stride; passing poses repeat."
+    },
+    {
+      "attempt": 3,
+      "decision": "reject",
+      "reason": "Targeted lower-body edit does not establish opposite hip-knee-foot occlusion; no reliable leg exchange."
+    }
+  ],
+  "next": "Generate one unambiguous opposite stride anchor, then use it to constrain a full row."
+}

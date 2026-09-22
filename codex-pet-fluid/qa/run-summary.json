@@ -1,0 +1,48 @@
+{
+  "ok": true,
+  "spriteVersionNumber": 1,
+  "method": "User-authorized programmatic joint interpolation of existing character artwork",
+  "user_authorization": "可以，用关节补间改善原生桌宠",
+  "installed_path": "~/.codex/pets/sunyu-baobao",
+  "installed_hash_matches": true,
+  "sha256": "9d4d41ac59c8b178dc722e9bd286dc7b551e7295ae6aa6b676564588dfd03ff5",
+  "package": "codex-pet-fluid/Sunyu-Baobao-自然关节小跑版.zip",
+  "changed_rows": [
+    1,
+    2
+  ],
+  "preserved_rows": [
+    0,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "max_head_step_before_px": 7.909098981293686,
+  "max_head_step_after_px": 0.0,
+  "native_durations_ms": [
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    220
+  ],
+  "native_codex_window_reloaded": false,
+  "tests": [
+    "rig-tests.json",
+    "row-preservation.json",
+    "review.json",
+    "visual-review.json",
+    "browser-checks.json",
+    "repaired-edge-validation.json"
+  ],
+  "limitations": [
+    "Native8-frame timing remains; this is a compact gentle jog, not high-frame-rate animation.",
+    "Original app window may require pet reselection to reload assets."
+  ]
+}

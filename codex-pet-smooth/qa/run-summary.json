@@ -1,0 +1,51 @@
+{
+  "ok": true,
+  "updated_at": "2026-09-14T03:48:17.164807+00:00",
+  "package": "~/.codex/pets/sunyu-baobao",
+  "backup": "codex-pet-smooth/backup-installed",
+  "sprite_version": 1,
+  "dimensions": [
+    1536,
+    1872
+  ],
+  "frame_counts": [
+    6,
+    8,
+    8,
+    4,
+    5,
+    8,
+    6,
+    6,
+    6
+  ],
+  "used_frames": 57,
+  "replaced_states": [
+    "running-right",
+    "running-left",
+    "waving",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "unmodified_rows_pixel_verified": [
+    "idle",
+    "jumping",
+    "failed"
+  ],
+  "native_fps_changed": false,
+  "native_animation_schedule_verified_from_installed_app": true,
+  "native_selected_pet_runtime_verified": false,
+  "native_runtime_note": "Computer Use cannot control the Codex app itself; package validation and same-timing browser playback checked.",
+  "browser_checks": {
+    "six_state_switches": "pass",
+    "both_versions_synchronized": "pass",
+    "pause_and_single_step": "pass",
+    "native_three_cycles_then_idle": "pass",
+    "dark_theme": "pass",
+    "console_errors": 0,
+    "console_warnings": 0
+  },
+  "visual_review": "All frames inspected; fixed head angles and smaller movement reduce large pose changes. Original 3 rows preserved exactly. Stable slot and preserved row warnings reviewed.",
+  "sha256": "4979f94b4faf3ab9956f6e8f638a8223e5d9b63cf5a0ab45c55a91a0693401a6"
+}

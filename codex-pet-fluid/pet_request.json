@@ -1,0 +1,13 @@
+{
+  "pet_id": "sunyu-baobao",
+  "display_name": "Sunyu Baobao",
+  "spriteVersionNumber": 1,
+  "repair_states": [
+    "running-right",
+    "running-left"
+  ],
+  "chroma_key": {
+    "hex": "#0000FF"
+  },
+  "notes": "Continuous compact jog, equal gait phase increments; no v2 upgrade."
+}

@@ -1,0 +1,15 @@
+{
+  "source": "decoded/running-right.png",
+  "support_source": "decoded/near-support.png",
+  "order": [
+    0,
+    "support",
+    7,
+    4,
+    3,
+    5,
+    1,
+    2
+  ],
+  "reason": "Contact, planted support, backward swing, recovery, forward knee, then contact; remove redundant passing pose."
+}

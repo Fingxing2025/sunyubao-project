@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "periodic_render_seam_max_channel_difference": 0,
+  "leg_lengths_constant": true,
+  "opposite_leg_phase": true,
+  "foot_clearance_bounds": [
+    176,
+    185
+  ],
+  "all_frames_unique": true,
+  "head_pixels_identical": true,
+  "all_frames_inside_safe_margins": true
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sunyu Baobao · 坐姿前伸脚动作</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='48' font-size='44'%3E%F0%9F%91%A3%3C/text%3E%3C/svg%3E">
+<style>
+:root { color-scheme: light dark; font-family: system-ui,-apple-system,"PingFang SC",sans-serif; }
+body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #101722; color: #eef3ff; }
+main { width: min(720px,calc(100% - 32px)); padding: 28px; text-align: center; }
+h1 { margin: 0 0 8px; font-size: clamp(24px,5vw,36px); }
+p { color: #b7c5df; margin: 0 0 24px; }
+.stage { min-height: 330px; display: grid; place-items: center; border-radius: 26px; background: radial-gradient(circle at 50% 20%,#344867,#172231 65%); }
+.sprite { width: 192px; height: 208px; transform: scale(1.45); transform-origin: center; background-image: url("final/spritesheet.webp"); background-repeat: no-repeat; background-size: 1536px 1872px; image-rendering: auto; }
+.controls { margin-top: 26px; display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; }
+button { border: 0; border-radius: 999px; padding: 10px 17px; background: #d9e7ff; color: #11203a; font: inherit; font-weight: 700; cursor: pointer; }
+button[aria-pressed="true"] { background: #75d7ba; }
+#status { margin-top: 18px; font-size: 14px; min-height: 1.6em; }
+@media (max-width: 430px) { .stage { min-height: 270px; } .sprite { transform: scale(1.15); } }
+</style>
+<main>
+  <h1>坐姿抱臂 · 赤脚前伸</h1>
+  <p>替换原先的左右小跑：左右槽分别让赤脚右脚、左脚夸张地向镜头前伸。</p>
+  <section class="stage" aria-label="动作播放区域"><div class="sprite" role="img" aria-label="Sunyu Baobao 坐姿前伸脚动画"></div></section>
+  <div class="controls">
+    <button data-state="running-right" aria-pressed="true">右脚前伸</button>
+    <button data-state="running-left" aria-pressed="false">左脚前伸</button>
+    <button id="toggle" aria-pressed="false">暂停</button>
+    <button id="restart">重播</button>
+  </div>
+  <div id="status" aria-live="polite"></div>
+</main>
+<script>
+const states={"running-right":{row:1,label:"右脚前伸"},"running-left":{row:2,label:"左脚前伸"}};
+const sprite=document.querySelector('.sprite'),status=document.querySelector('#status'),toggle=document.querySelector('#toggle');
+let state='running-right',frame=0,paused=false,last=0,elapsed=0;
+const durations=[150,150,150,150,150,150,150,260];
+function paint(){sprite.style.backgroundPosition=`${-192*frame}px ${-208*states[state].row}px`;status.textContent=`${states[state].label} · 第 ${frame+1}/8 帧${paused?' · 已暂停':''}`;}
+function tick(now){if(last&&!paused){elapsed+=Math.min(now-last,80);if(elapsed>=durations[frame]){elapsed=0;frame=(frame+1)%8;paint();}}last=now;requestAnimationFrame(tick);}
+document.querySelectorAll('[data-state]').forEach(button=>button.onclick=()=>{state=button.dataset.state;frame=0;elapsed=0;document.querySelectorAll('[data-state]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));paint();});
+toggle.onclick=()=>{paused=!paused;toggle.textContent=paused?'继续播放':'暂停';toggle.setAttribute('aria-pressed',String(paused));paint();};
+document.querySelector('#restart').onclick=()=>{frame=0;elapsed=0;paint();};
+paint();requestAnimationFrame(tick);
+</script>
+</html>

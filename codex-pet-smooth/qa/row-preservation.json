@@ -1,0 +1,38 @@
+{
+  "idle": {
+    "unchanged": true,
+    "frame_count": 6
+  },
+  "running-right": {
+    "unchanged": false,
+    "frame_count": 8
+  },
+  "running-left": {
+    "unchanged": false,
+    "frame_count": 8
+  },
+  "waving": {
+    "unchanged": false,
+    "frame_count": 4
+  },
+  "jumping": {
+    "unchanged": true,
+    "frame_count": 5
+  },
+  "failed": {
+    "unchanged": true,
+    "frame_count": 8
+  },
+  "waiting": {
+    "unchanged": false,
+    "frame_count": 6
+  },
+  "running": {
+    "unchanged": false,
+    "frame_count": 6
+  },
+  "review": {
+    "unchanged": false,
+    "frame_count": 6
+  }
+}

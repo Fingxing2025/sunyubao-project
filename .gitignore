@@ -1,0 +1,14 @@
+.DS_Store
+.playwright-cli/
+output/
+**/__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+
+# Keep private source portraits and local-only materials outside public Git.
+private/
+private-assets/
+source-private/
+微信图片_*

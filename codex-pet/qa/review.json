@@ -1,0 +1,990 @@
+{
+  "ok": true,
+  "frames_root": "./codex-pet/frames",
+  "errors": [],
+  "warnings": [
+    "idle used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "running-right used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "running-left used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "waving used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "jumping used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "failed used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "waiting used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "running used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "review used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+  ],
+  "rows": [
+    {
+      "state": "idle",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "idle used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "./codex-pet/frames/idle/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12787,
+          "bbox": [
+            46,
+            5,
+            145,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 16
+        },
+        {
+          "index": 1,
+          "file": "./codex-pet/frames/idle/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12757,
+          "bbox": [
+            46,
+            5,
+            145,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 17
+        },
+        {
+          "index": 2,
+          "file": "./codex-pet/frames/idle/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12737,
+          "bbox": [
+            46,
+            5,
+            145,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 18
+        },
+        {
+          "index": 3,
+          "file": "./codex-pet/frames/idle/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12763,
+          "bbox": [
+            46,
+            5,
+            145,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 26
+        },
+        {
+          "index": 4,
+          "file": "./codex-pet/frames/idle/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12899,
+          "bbox": [
+            46,
+            5,
+            145,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 22
+        },
+        {
+          "index": 5,
+          "file": "./codex-pet/frames/idle/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12862,
+          "bbox": [
+            46,
+            5,
+            145,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 34
+        }
+      ]
+    },
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running-right used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "./codex-pet/frames/running-right/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13301,
+          "bbox": [
+            39,
+            6,
+            151,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 50
+        },
+        {
+          "index": 1,
+          "file": "./codex-pet/frames/running-right/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13230,
+          "bbox": [
+            39,
+            5,
+            151,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 36
+        },
+        {
+          "index": 2,
+          "file": "./codex-pet/frames/running-right/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13045,
+          "bbox": [
+            38,
+            5,
+            153,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 31
+        },
+        {
+          "index": 3,
+          "file": "./codex-pet/frames/running-right/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13127,
+          "bbox": [
+            37,
+            5,
+            154,
+            195
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 33
+        },
+        {
+          "index": 4,
+          "file": "./codex-pet/frames/running-right/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13380,
+          "bbox": [
+            37,
+            8,
+            153,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 40
+        },
+        {
+          "index": 5,
+          "file": "./codex-pet/frames/running-right/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13150,
+          "bbox": [
+            39,
+            8,
+            152,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 38
+        },
+        {
+          "index": 6,
+          "file": "./codex-pet/frames/running-right/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12896,
+          "bbox": [
+            39,
+            6,
+            152,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 35
+        },
+        {
+          "index": 7,
+          "file": "./codex-pet/frames/running-right/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13068,
+          "bbox": [
+            37,
+            5,
+            154,
+            197
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 36
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running-left used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "./codex-pet/frames/running-left/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13295,
+          "bbox": [
+            39,
+            6,
+            151,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 40
+        },
+        {
+          "index": 1,
+          "file": "./codex-pet/frames/running-left/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13242,
+          "bbox": [
+            39,
+            5,
+            151,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 35
+        },
+        {
+          "index": 2,
+          "file": "./codex-pet/frames/running-left/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13045,
+          "bbox": [
+            38,
+            5,
+            153,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 31
+        },
+        {
+          "index": 3,
+          "file": "./codex-pet/frames/running-left/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13127,
+          "bbox": [
+            37,
+            5,
+            154,
+            195
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 33
+        },
+        {
+          "index": 4,
+          "file": "./codex-pet/frames/running-left/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13389,
+          "bbox": [
+            37,
+            8,
+            154,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 43
+        },
+        {
+          "index": 5,
+          "file": "./codex-pet/frames/running-left/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13086,
+          "bbox": [
+            39,
+            8,
+            152,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 32
+        },
+        {
+          "index": 6,
+          "file": "./codex-pet/frames/running-left/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12896,
+          "bbox": [
+            39,
+            6,
+            152,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 35
+        },
+        {
+          "index": 7,
+          "file": "./codex-pet/frames/running-left/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13077,
+          "bbox": [
+            37,
+            5,
+            154,
+            197
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 37
+        }
+      ]
+    },
+    {
+      "state": "waving",
+      "expected_frames": 4,
+      "actual_frames": 4,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "waving used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "./codex-pet/frames/waving/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13205,
+          "bbox": [
+            45,
+            5,
+            146,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 28
+        },
+        {
+          "index": 1,
+          "file": "./codex-pet/frames/waving/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13389,
+          "bbox": [
+            43,
+            5,
+            149,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 24
+        },
+        {
+          "index": 2,
+          "file": "./codex-pet/frames/waving/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13288,
+          "bbox": [
+            38,
+            5,
+            154,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 25
+        },
+        {
+          "index": 3,
+          "file": "./codex-pet/frames/waving/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13018,
+          "bbox": [
+            46,
+            5,
+            146,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 24
+        }
+      ]
+    },
+    {
+      "state": "jumping",
+      "expected_frames": 5,
+      "actual_frames": 5,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "jumping used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "./codex-pet/frames/jumping/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9561,
+          "bbox": [
+            49,
+            48,
+            141,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 21
+        },
+        {
+          "index": 1,
+          "file": "./codex-pet/frames/jumping/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10499,
+          "bbox": [
+            47,
+            26,
+            144,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 22
+        },
+        {
+          "index": 2,
+          "file": "./codex-pet/frames/jumping/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11226,
+          "bbox": [
+            45,
+            5,
+            146,
+            173
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 28
+        },
+        {
+          "index": 3,
+          "file": "./codex-pet/frames/jumping/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10662,
+          "bbox": [
+            46,
+            27,
+            145,
+            193
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 22
+        },
+        {
+          "index": 4,
+          "file": "./codex-pet/frames/jumping/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10207,
+          "bbox": [
+            49,
+            31,
+            142,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 21
+        }
+      ]
+    },
+    {
+      "state": "failed",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "failed used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "./codex-pet/frames/failed/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12944,
+          "bbox": [
+            45,
+            5,
+            147,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 36
+        },
+        {
+          "index": 1,
+          "file": "./codex-pet/frames/failed/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12651,
+          "bbox": [
+            45,
+            10,
+            147,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 25
+        },
+        {
+          "index": 2,
+          "file": "./codex-pet/frames/failed/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12373,
+          "bbox": [
+            45,
+            16,
+            147,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 25
+        },
+        {
+          "index": 3,
+          "file": "./codex-pet/frames/failed/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12058,
+          "bbox": [
+            45,
+            23,
+            147,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 26
+        },
+        {
+          "index": 4,
+          "file": "./codex-pet/frames/failed/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12229,
+          "bbox": [
+            45,
+            19,
+            147,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 29
+        },
+        {
+          "index": 5,
+          "file": "./codex-pet/frames/failed/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12353,
+          "bbox": [
+            45,
+            15,
+            147,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 42
+        },
+        {
+          "index": 6,
+          "file": "./codex-pet/frames/failed/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12562,
+          "bbox": [
+            45,
+            8,
+            147,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 22
+        },
+        {
+          "index": 7,
+          "file": "./codex-pet/frames/failed/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12822,
+          "bbox": [
+            45,
+            5,
+            147,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 51
+        }
+      ]
+    },
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "waiting used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "./codex-pet/frames/waiting/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12122,
+          "bbox": [
+            47,
+            7,
+            145,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 17
+        },
+        {
+          "index": 1,
+          "file": "./codex-pet/frames/waiting/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12188,
+          "bbox": [
+            47,
+            5,
+            145,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 19
+        },
+        {
+          "index": 2,
+          "file": "./codex-pet/frames/waiting/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12357,
+          "bbox": [
+            47,
+            5,
+            145,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 15
+        },
+        {
+          "index": 3,
+          "file": "./codex-pet/frames/waiting/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12246,
+          "bbox": [
+            47,
+            5,
+            145,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 14
+        },
+        {
+          "index": 4,
+          "file": "./codex-pet/frames/waiting/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12188,
+          "bbox": [
+            47,
+            7,
+            145,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 26
+        },
+        {
+          "index": 5,
+          "file": "./codex-pet/frames/waiting/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12183,
+          "bbox": [
+            47,
+            5,
+            145,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 18
+        }
+      ]
+    },
+    {
+      "state": "running",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "./codex-pet/frames/running/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12367,
+          "bbox": [
+            47,
+            5,
+            145,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 22
+        },
+        {
+          "index": 1,
+          "file": "./codex-pet/frames/running/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12477,
+          "bbox": [
+            47,
+            5,
+            145,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 14
+        },
+        {
+          "index": 2,
+          "file": "./codex-pet/frames/running/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12575,
+          "bbox": [
+            47,
+            5,
+            145,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 23
+        },
+        {
+          "index": 3,
+          "file": "./codex-pet/frames/running/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12480,
+          "bbox": [
+            47,
+            5,
+            145,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 21
+        },
+        {
+          "index": 4,
+          "file": "./codex-pet/frames/running/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12300,
+          "bbox": [
+            47,
+            5,
+            145,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 21
+        },
+        {
+          "index": 5,
+          "file": "./codex-pet/frames/running/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12397,
+          "bbox": [
+            47,
+            5,
+            145,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 27
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "review used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "./codex-pet/frames/review/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12688,
+          "bbox": [
+            45,
+            5,
+            146,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 26
+        },
+        {
+          "index": 1,
+          "file": "./codex-pet/frames/review/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12523,
+          "bbox": [
+            45,
+            5,
+            146,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 22
+        },
+        {
+          "index": 2,
+          "file": "./codex-pet/frames/review/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12393,
+          "bbox": [
+            46,
+            5,
+            145,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 19
+        },
+        {
+          "index": 3,
+          "file": "./codex-pet/frames/review/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12327,
+          "bbox": [
+            45,
+            5,
+            145,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 24
+        },
+        {
+          "index": 4,
+          "file": "./codex-pet/frames/review/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12076,
+          "bbox": [
+            46,
+            5,
+            144,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 28
+        },
+        {
+          "index": 5,
+          "file": "./codex-pet/frames/review/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12081,
+          "bbox": [
+            45,
+            6,
+            146,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 26
+        }
+      ]
+    }
+  ]
+}

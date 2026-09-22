@@ -1,0 +1,43 @@
+{
+  "ok": true,
+  "display_name": "Sunyu Baobao",
+  "package": "~/.codex/pets/sunyu-baobao",
+  "native_app_selection_verified": false,
+  "native_app_selection_note": "Computer Use is not allowed to control com.openai.codex. User must select and wake the installed pet in Settings.",
+  "atlas": {
+    "width": 1536,
+    "height": 1872,
+    "rows": 9,
+    "columns": 8,
+    "used_frames": 57,
+    "unused_transparent_cells": 15,
+    "sprite_version": 1,
+    "sha256": "228f1fca0e677e7bd23cef5a561e47afde903ffaf15a4d60802f08060577f7a0"
+  },
+  "visual_qa": {
+    "reviewer": "primary agent, sequential workflow",
+    "contact_sheet": "pass: same identity, complete bodies, correct directions and state-specific gestures",
+    "extraction": "stable-slots; threshold 150",
+    "stable_slot_warnings_reviewed": true
+  },
+  "preview_browser_checks": {
+    "http_status": 200,
+    "all_9_state_controls": "pass",
+    "all_9_animations_advance": "pass",
+    "pause_freezes_frame": "pass",
+    "resume_and_theme_switch": "pass",
+    "console_errors": 0,
+    "console_warnings": 0
+  },
+  "gif_frames": {
+    "idle": 6,
+    "running-right": 8,
+    "running-left": 8,
+    "waving": 4,
+    "jumping": 5,
+    "failed": 8,
+    "waiting": 6,
+    "running": 6,
+    "review": 6
+  }
+}

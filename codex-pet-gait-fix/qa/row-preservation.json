@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "rows": [
+    {
+      "row": 0,
+      "pixels_unchanged": true
+    },
+    {
+      "row": 1,
+      "pixels_unchanged": false
+    },
+    {
+      "row": 2,
+      "pixels_unchanged": false
+    },
+    {
+      "row": 3,
+      "pixels_unchanged": true
+    },
+    {
+      "row": 4,
+      "pixels_unchanged": true
+    },
+    {
+      "row": 5,
+      "pixels_unchanged": true
+    },
+    {
+      "row": 6,
+      "pixels_unchanged": true
+    },
+    {
+      "row": 7,
+      "pixels_unchanged": true
+    },
+    {
+      "row": 8,
+      "pixels_unchanged": true
+    }
+  ],
+  "mirror_preserves_frame_order": true,
+  "eight_unique_frames_per_run": true,
+  "sha256": "07a60bf95f032e692a07f1c338a894a93bf7fd2d3cf25c9651e061234e532432",
+  "note": "Pixel checks do not prove gait semantics; see visual review."
+}

@@ -1,0 +1,9 @@
+{
+  "pivot": [
+    87,
+    99
+  ],
+  "source": "./codex-pet-gait-fix/references/opposite-stride-anchor.png",
+  "source_mask": "qa/arm-mask-coordinates.json",
+  "scale": 0.15
+}

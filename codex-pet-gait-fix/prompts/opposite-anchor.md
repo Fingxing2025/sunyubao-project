@@ -1,0 +1,9 @@
+Generate one single full-body pose of the exact same 3D toy chibi boy in canonical image 1 (identity), same face/glasses/hair/navy raglan T-shirt with sage-gray sleeves, navy trousers, ivory sneakers. Image 2 contains failed running reference figures, use for matching three-quarter right-facing camera and scale proportions only.
+
+This SINGLE image is the opposite step keyframe needed to correct a run cycle. Flat solid blue #0000FF background, portrait full-body framing, no shadows or effects. Camera sees boy's front and his RIGHT body side while he faces screen-right.
+
+CRITICAL POSE: The anatomically RIGHT, CAMERA-NEAR ARM is bent and swung FORWARD toward screen-right. The RIGHT hand is raised in front of chest. The anatomically RIGHT, CAMERA-NEAR LEG is swung BACK toward screen-left. Its visible thigh emerges from outer camera-facing right hip below the near arm and extends diagonally DOWN-LEFT. The right knee is clearly LEFT of hip. The right calf folds UP-LEFT so right sneaker is raised BEHIND BUTTOCK on SCREEN-LEFT. Render that near bent leg IN FRONT OF the other leg where they cross. Show its outer pant seam from near hip to bent knee to prove continuous anatomical connection.
+
+The FAR LEFT LEG reaches FORWARD to SCREEN-RIGHT, knee forward, lower leg toward screen-right, far ivory sneaker forward; far leg goes BEHIND the bent near leg at their hip crossing. The far left arm swings behind and is mostly hidden.
+
+We must see a LARGE FOREGROUND BENT LEG GOING BACK LEFT, and a SMALLER FAR LEG EXTENDED FORWARD RIGHT. This is NOT the more common near-straight-leg-forward silhouette. Make the near thigh/backward bend unmistakable, give it visual prominence. Three-quarter camera is fixed, do not rotate boy left to fake the limb swap. Near hand forward, near shoe back. No near foot in front. No straight near leg. Exactly two arms, exactly two legs, one boy. Keep canonical identity and proportions.

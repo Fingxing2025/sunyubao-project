@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "http_status": 200,
+  "native_timing": true,
+  "all_eight_frames_advance": true,
+  "pause_and_step_and_old_new_sync": true,
+  "both_directions": true,
+  "mobile_390_no_overflow": true,
+  "three_loops_to_idle": true,
+  "console_errors": 0,
+  "console_warnings": 0,
+  "native_codex_window_reloaded": false
+}

@@ -1,0 +1,19 @@
+{
+  "task": "Repair existing directional run gait",
+  "spriteVersionNumber": 1,
+  "replace_rows": [
+    1,
+    2
+  ],
+  "preserve_rows": [
+    0,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "before_sha256": "4979f94b4faf3ab9956f6e8f638a8223e5d9b63cf5a0ab45c55a91a0693401a6",
+  "reason": "Existing v1 asset repair; retain native geometry and all unrelated approved states."
+}

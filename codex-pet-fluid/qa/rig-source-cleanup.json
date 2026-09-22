@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "input": "./codex-pet-fluid/references/rig-source.png",
+  "output": "./codex-pet-fluid/references/rig-source-cleaned.png",
+  "chroma_key": "#0000FF",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "strength": 1,
+  "edge_radius": 5,
+  "spill_tolerance": 0.15,
+  "minimum_saturation": 0.1,
+  "changed_pixels": 10711,
+  "decontaminated_pixels": 8927,
+  "spill_suppressed_pixels": 10711,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r0c2": 1778,
+    "r0c1": 1616,
+    "r2c1": 1542,
+    "r1c2": 1071,
+    "r3c1": 1066,
+    "r2c2": 1020,
+    "r3c2": 884,
+    "r1c1": 789,
+    "r0c3": 559,
+    "r2c0": 149,
+    "r1c3": 130,
+    "r3c0": 107
+  },
+  "alpha_preserved": true
+}

@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "spriteVersionNumber": 1,
+  "changed_rows": [
+    1,
+    2
+  ],
+  "preserved_rows": [
+    0,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "installed_path": "~/.codex/pets/sunyu-baobao",
+  "installed_hash_matches": true,
+  "sha256": "07a60bf95f032e692a07f1c338a894a93bf7fd2d3cf25c9651e061234e532432",
+  "package": "codex-pet-gait-fix/Sunyu-Baobao-手脚交替修复版.zip",
+  "generation_mode": "built-in image_gen",
+  "validation": "final/validation.json",
+  "visual_review": "qa/visual-review.json",
+  "browser_checks": "qa/browser-checks.json",
+  "native_codex_window_tested": false,
+  "limitations": [
+    "Eight-frame cycle has repeated mid-swing poses and uneven phases; core limb alternation and support transition fixed.",
+    "App may require pet reselection/reload."
+  ]
+}

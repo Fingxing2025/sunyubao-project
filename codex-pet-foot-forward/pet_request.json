@@ -1,0 +1,8 @@
+{
+  "pet_id": "sunyu-baobao",
+  "display_name": "Sunyu Baobao",
+  "spriteVersionNumber": 1,
+  "repair_states": ["running-right", "running-left"],
+  "chroma_key": {"hex": "#0000FF"},
+  "notes": "Replaces directional jogging with a seated, arms-crossed, sneaker-sole-forward loop."
+}

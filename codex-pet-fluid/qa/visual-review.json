@@ -1,0 +1,28 @@
+{
+  "visual_qa": "pass",
+  "scope": "Independent static visual review of repaired directional gait only; not a full v2 acceptance review.",
+  "inspected_files": [
+    "qa/rig-row.png",
+    "qa/contact-sheet.png",
+    "../codex-pet-gait-fix/qa/right-timed.png"
+  ],
+  "evidence": {
+    "pose_continuity": "The current eight-frame row uses a compact sequence of overlapping, opening and closing leg poses. It removes the old row's conspicuous changes between long airborne strides and a near-upright endpoint.",
+    "alternation": "In the static sequence the bent forearms move through different forward/back positions, and the two shoes pass through overlap and separation. The visible pose family is compatible with near/far limb alternation; exact joint phase is not measurable from this opaque contact sheet alone.",
+    "identity_and_head": "Hair, glasses, face, head size and upper-body proportions stay visually stable throughout all eight repaired frames.",
+    "attachments": "Shoulder, neck, elbow, knee and shoe connections remain attached. No major detached limb, empty interior gap or broken silhouette is visible at the displayed sprite scale.",
+    "clipping": "All repaired poses remain fully inside their slots. The mirrored left-facing sequence retains the same compact pose family."
+  },
+  "accepted_warnings": [
+    "The shorter stride reads as gentle shuffling or a very soft jog; it is less energetic than the original long-stride art.",
+    "Some pant cuffs and shoe joins look angular in the enlarged row, but they do not form a major disconnected seam at normal pet size.",
+    "The opaque dark pants and overlapping shoes limit anatomical near/far attribution in static images. Parent joint invariants are needed to confirm exact alternation."
+  ],
+  "limitations": [
+    "Only ordered static frames were inspected. No GIF or real-time animation was observed in this review.",
+    "Static contact sheets cannot certify perceived smoothness at the native 120 ms x 7 plus 220 ms timing, especially the wraparound hold; parent playback verification remains necessary.",
+    "Unmodified non-directional rows were inspected only for overall context, and look-direction rows were outside scope."
+  ],
+  "major_failures": [],
+  "necessary_repairs": []
+}

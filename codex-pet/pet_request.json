@@ -1,0 +1,202 @@
+{
+  "pet_id": "sunyu-baobao",
+  "display_name": "\u5b59\u715c\u5b9d\u5b9d",
+  "description": "\u6234\u773c\u955c\u7684\u53ef\u7231 Q \u7248\u5b59\u715c\u5b9d\u5b9d\uff0c\u4f1a\u7728\u773c\u3001\u6325\u624b\u3001\u8e66\u8df3\uff0c\u966a\u4f60\u4e00\u8d77\u5199\u4ee3\u7801\u3002.",
+  "created_at": "2026-09-14T02:51:32.642834+00:00",
+  "atlas": {
+    "columns": 8,
+    "rows": 9,
+    "cell_width": 192,
+    "cell_height": 208,
+    "width": 1536,
+    "height": 1872
+  },
+  "rows": [
+    {
+      "state": "idle",
+      "row": 0,
+      "frames": 6,
+      "purpose": "calm resting, breathing, and blinking loop"
+    },
+    {
+      "state": "running-right",
+      "row": 1,
+      "frames": 8,
+      "purpose": "rightward drag movement loop"
+    },
+    {
+      "state": "running-left",
+      "row": 2,
+      "frames": 8,
+      "purpose": "leftward drag movement loop"
+    },
+    {
+      "state": "waving",
+      "row": 3,
+      "frames": 4,
+      "purpose": "greeting or attention gesture"
+    },
+    {
+      "state": "jumping",
+      "row": 4,
+      "frames": 5,
+      "purpose": "hover or playful jump"
+    },
+    {
+      "state": "failed",
+      "row": 5,
+      "frames": 8,
+      "purpose": "blocked, failed, or cancelled reaction"
+    },
+    {
+      "state": "waiting",
+      "row": 6,
+      "frames": 6,
+      "purpose": "waiting for approval, help, or user input"
+    },
+    {
+      "state": "running",
+      "row": 7,
+      "frames": 6,
+      "purpose": "active task work or processing"
+    },
+    {
+      "state": "review",
+      "row": 8,
+      "frames": 6,
+      "purpose": "ready or completed output review"
+    }
+  ],
+  "layout_guides": [
+    {
+      "state": "idle",
+      "path": "references/layout-guides/idle.png",
+      "width": 1152,
+      "height": 208,
+      "frames": 6,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "running-right",
+      "path": "references/layout-guides/running-right.png",
+      "width": 1536,
+      "height": 208,
+      "frames": 8,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "running-left",
+      "path": "references/layout-guides/running-left.png",
+      "width": 1536,
+      "height": 208,
+      "frames": 8,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "waving",
+      "path": "references/layout-guides/waving.png",
+      "width": 768,
+      "height": 208,
+      "frames": 4,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "jumping",
+      "path": "references/layout-guides/jumping.png",
+      "width": 960,
+      "height": 208,
+      "frames": 5,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "failed",
+      "path": "references/layout-guides/failed.png",
+      "width": 1536,
+      "height": 208,
+      "frames": 8,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "waiting",
+      "path": "references/layout-guides/waiting.png",
+      "width": 1152,
+      "height": 208,
+      "frames": 6,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "running",
+      "path": "references/layout-guides/running.png",
+      "width": 1152,
+      "height": 208,
+      "frames": 6,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "review",
+      "path": "references/layout-guides/review.png",
+      "width": 1152,
+      "height": 208,
+      "frames": 6,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    }
+  ],
+  "references": [],
+  "reference_notice": "Private source portrait excluded from the public repository.",
+  "chroma_key": {
+    "hex": "#0000FF",
+    "rgb": [
+      0,
+      0,
+      255
+    ],
+    "name": "blue",
+    "selection": "auto",
+    "score": 214.14
+  },
+  "pet_notes": "Cute full-body chibi human boy faithfully inspired by the provided portrait: fluffy short black side-swept hair, black browline rounded-rectangular glasses with clear lenses, warm fair skin, soft shy smile, tiny rosy cheeks. Oversized head about half total height, small rounded hands and short legs. Navy blue crew-neck raglan T-shirt with muted sage-gray sleeves matching the portrait, navy trousers and simple ivory sneakers. Neutral symmetrical outfit without lettering or logos. No bouquet or other props so hand gestures remain legible. Preserve recognizable hair, face and glasses across all frames.",
+  "style_preset": "3d-toy",
+  "style_notes": "Adorable smooth matte vinyl collectible figure, soft rounded forms, clean sophisticated pastel shading, expressive face readable at tiny desktop size. Front three-quarter view, whole body with safe padding, no floor shadow, no scenery.",
+  "style_contract": "Pet-safe sprite: compact full-body mascot, readable in a 192x208 cell, clear silhouette, simple face, stable palette/materials, and crisp edges for chroma-key extraction. Style `3d-toy`: Stylized 3D toy mascot with smooth rounded forms, simple materials, clear silhouette, and no photoreal complexity. User style notes: Adorable smooth matte vinyl collectible figure, soft rounded forms, clean sophisticated pastel shading, expressive face readable at tiny desktop size. Front three-quarter view, whole body with safe padding, no floor shadow, no scenery..",
+  "brand_name": "",
+  "brand_brief": "",
+  "brand_sources": [],
+  "pet_safe_style": "Pet-safe sprite: compact full-body mascot, readable in a 192x208 cell, clear silhouette, simple face, stable palette/materials, and crisp edges for chroma-key extraction.",
+  "primary_generation_skill": "$imagegen"
+}

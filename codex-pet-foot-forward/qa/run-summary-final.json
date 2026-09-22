@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "version": "giant-barefoot-forward-sole",
+  "replaced_states": ["running-right", "running-left"],
+  "action": "seated arms-crossed pose; both feet barefoot; foreground sole faces the viewer with exaggerated forced perspective",
+  "direction_correction": "running-right uses a screen-right foreground foot with the big toe on its inner screen-left edge; running-left is the mirrored screen-left counterpart with the big toe on its inner screen-right edge",
+  "other_states": "retained from codex-pet-run-dynamics",
+  "final_spritesheet": "final/spritesheet.webp",
+  "package": "Sunyu-Baobao-夸张赤脚前伸版-内侧大拇趾修正.zip",
+  "atlas_validation": "final/validation.json",
+  "frame_review": "qa/review-inner-toe.json",
+  "visual_qa": "pass: independent final review",
+  "contact_sheet": "qa/contact-sheet-inner-toe.png",
+  "browser_preview": "桌宠预览.html",
+  "browser_note": "localhost preview returned HTTP 200; final Playwright click/screenshot invocation hung after earlier UI controls had been verified, so no final browser screenshot claim is made",
+  "installed_pet_changed": false,
+  "sha256": {
+    "spritesheet_webp": "72f9d1288d218bcbaaf2345b1d9b3b0493ab21a2f8ca763751e901ff36ab1264",
+    "zip": "502fca678ea31885009204602c24d16edbda6e990f8f4badb5c1cb0a8a0567ab"
+  }
+}

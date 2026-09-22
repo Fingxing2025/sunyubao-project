@@ -1,0 +1,86 @@
+{
+  "ok": true,
+  "cells": [
+    {
+      "row": 1,
+      "column": 0,
+      "fringe_pixels": 0
+    },
+    {
+      "row": 1,
+      "column": 1,
+      "fringe_pixels": 0
+    },
+    {
+      "row": 1,
+      "column": 2,
+      "fringe_pixels": 0
+    },
+    {
+      "row": 1,
+      "column": 3,
+      "fringe_pixels": 0
+    },
+    {
+      "row": 1,
+      "column": 4,
+      "fringe_pixels": 0
+    },
+    {
+      "row": 1,
+      "column": 5,
+      "fringe_pixels": 0
+    },
+    {
+      "row": 1,
+      "column": 6,
+      "fringe_pixels": 0
+    },
+    {
+      "row": 1,
+      "column": 7,
+      "fringe_pixels": 0
+    },
+    {
+      "row": 2,
+      "column": 0,
+      "fringe_pixels": 0
+    },
+    {
+      "row": 2,
+      "column": 1,
+      "fringe_pixels": 0
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "fringe_pixels": 0
+    },
+    {
+      "row": 2,
+      "column": 3,
+      "fringe_pixels": 0
+    },
+    {
+      "row": 2,
+      "column": 4,
+      "fringe_pixels": 0
+    },
+    {
+      "row": 2,
+      "column": 5,
+      "fringe_pixels": 0
+    },
+    {
+      "row": 2,
+      "column": 6,
+      "fringe_pixels": 0
+    },
+    {
+      "row": 2,
+      "column": 7,
+      "fringe_pixels": 0
+    }
+  ],
+  "unchanged_row_policy": "Only inherited unchanged rows use baseline allowance max5 blue-like edge pixels per cell; all repaired cells have zero."
+}

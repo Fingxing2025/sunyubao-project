@@ -1,0 +1,4 @@
+Read-only evidence from installed /Applications/ChatGPT.app/Contents/Resources/app.asar on 2026-09-14
+ionMs:140},{rowIndex:0,columnIndex:5,frameDurationMs:320}],ger=her.map(e=>({...e,frameDurationMs:e.frameDurationMs*mer})),_er={failed:LN(5,8,140,240),idle:her,jumping:LN(4,5,140,280),review:LN(8,6,150,280),running:LN(7,6,120,220),"running-left":LN(2,8,120,220),"running-right":LN(1,8,120,220),waving:LN(3,4,140,280),waiting:LN(6,6,150,260)}})),yer,ber,xer=t((()=>{yer=`_Root_1hrnv_1`,ber={Root:yer}})),Ser,Cer,wer,Ter=t((()=>{po(),aer(),Ser=n(c(),1),ver(),ler(),xer(),Cer=G(),wer=({assetMap:e,className:t,lookFrame:n,respondToHover:r=!1,source:i,stat
+
+v1 has 9 rows; v2 has 11 rows, adding pointer-facing views. Both use the same fixed state frame schedules.

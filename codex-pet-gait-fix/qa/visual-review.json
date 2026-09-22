@@ -1,0 +1,19 @@
+{
+  "verdict": "pass",
+  "scope": "Existing v1 directional running-row gait repair only",
+  "reviewed_files": ["qa/right-timed.png", "qa/contact-sheet.png", "qa/previews/running-right.gif"],
+  "temporal_order": [0, "generated-near-support", 7, 4, 3, 5, 1, 2],
+  "evidence": [
+    "Final frame 1 shows the near arm behind and continuous foreground near thigh extending forward; final frames 3-5 show the near arm forward and near thigh trailing backward, matching the approved opposite-stride anchor.",
+    "New final frame 2 supplies a visible planted near leg beneath the hip before the near leg trails backward, filling the previous direct front-to-back jump.",
+    "Final frames 6-7 recover the trailing leg and final frame 8 raises the near knee toward the next forward contact.",
+    "Head, glasses, clothing and right-facing three-quarter identity remain consistent at pet size; no severe incorrect limb attachment, missing figure or clipping is visible.",
+    "The contact sheet's leftward row preserves the corresponding mirrored phase sequence."
+  ],
+  "limitations": [
+    "The middle backward-stride poses are similar, so the fixed eight-frame cycle has uneven phase spacing and is not perfectly smooth.",
+    "Support-to-backward-stride transition remains compressed, but the newly generated planted pose removes the previous missing support phase.",
+    "The image tool displayed only the GIF's first frame; motion playback itself was not independently observed by this reviewer. The sequential eight-frame strip and pet-size contact sheet are the basis of phase approval."
+  ],
+  "repair_required": false
+}

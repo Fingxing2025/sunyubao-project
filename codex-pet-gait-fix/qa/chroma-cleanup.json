@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "input": "./codex-pet-gait-fix/qa/right-uncleaned.png",
+  "output": "./codex-pet-gait-fix/qa/right-cleaned.png",
+  "chroma_key": "#0000FF",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "strength": 1,
+  "edge_radius": 5,
+  "spill_tolerance": 0.15,
+  "minimum_saturation": 0.1,
+  "changed_pixels": 18575,
+  "decontaminated_pixels": 14848,
+  "spill_suppressed_pixels": 18575,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r0c7": 2622,
+    "r0c3": 2497,
+    "r0c4": 2466,
+    "r0c0": 2444,
+    "r0c5": 2415,
+    "r0c1": 2261,
+    "r0c6": 2025,
+    "r0c2": 1845
+  },
+  "alpha_preserved": true
+}

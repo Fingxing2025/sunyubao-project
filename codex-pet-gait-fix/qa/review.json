@@ -1,0 +1,973 @@
+{
+  "ok": true,
+  "frames_root": "./codex-pet-gait-fix/frames",
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "idle",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "./codex-pet-gait-fix/frames/idle/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12787,
+          "bbox": [
+            46,
+            5,
+            145,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 16
+        },
+        {
+          "index": 1,
+          "file": "./codex-pet-gait-fix/frames/idle/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12757,
+          "bbox": [
+            46,
+            5,
+            145,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 17
+        },
+        {
+          "index": 2,
+          "file": "./codex-pet-gait-fix/frames/idle/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12737,
+          "bbox": [
+            46,
+            5,
+            145,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 18
+        },
+        {
+          "index": 3,
+          "file": "./codex-pet-gait-fix/frames/idle/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12763,
+          "bbox": [
+            46,
+            5,
+            145,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 26
+        },
+        {
+          "index": 4,
+          "file": "./codex-pet-gait-fix/frames/idle/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12899,
+          "bbox": [
+            46,
+            5,
+            145,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 22
+        },
+        {
+          "index": 5,
+          "file": "./codex-pet-gait-fix/frames/idle/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12862,
+          "bbox": [
+            46,
+            5,
+            145,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 34
+        }
+      ]
+    },
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "./codex-pet-gait-fix/frames/running-right/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12421,
+          "bbox": [
+            42,
+            5,
+            149,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "./codex-pet-gait-fix/frames/running-right/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11690,
+          "bbox": [
+            42,
+            5,
+            150,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "./codex-pet-gait-fix/frames/running-right/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12766,
+          "bbox": [
+            42,
+            5,
+            150,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "./codex-pet-gait-fix/frames/running-right/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12277,
+          "bbox": [
+            40,
+            5,
+            152,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "./codex-pet-gait-fix/frames/running-right/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12336,
+          "bbox": [
+            39,
+            5,
+            152,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "./codex-pet-gait-fix/frames/running-right/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12311,
+          "bbox": [
+            44,
+            5,
+            148,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "./codex-pet-gait-fix/frames/running-right/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12001,
+          "bbox": [
+            44,
+            5,
+            147,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "./codex-pet-gait-fix/frames/running-right/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11497,
+          "bbox": [
+            49,
+            5,
+            142,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "./codex-pet-gait-fix/frames/running-left/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12421,
+          "bbox": [
+            43,
+            5,
+            150,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "./codex-pet-gait-fix/frames/running-left/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11690,
+          "bbox": [
+            42,
+            5,
+            150,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "./codex-pet-gait-fix/frames/running-left/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12766,
+          "bbox": [
+            42,
+            5,
+            150,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "./codex-pet-gait-fix/frames/running-left/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12277,
+          "bbox": [
+            40,
+            5,
+            152,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "./codex-pet-gait-fix/frames/running-left/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12336,
+          "bbox": [
+            40,
+            5,
+            153,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "./codex-pet-gait-fix/frames/running-left/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12311,
+          "bbox": [
+            44,
+            5,
+            148,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "./codex-pet-gait-fix/frames/running-left/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12001,
+          "bbox": [
+            45,
+            5,
+            148,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "./codex-pet-gait-fix/frames/running-left/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11497,
+          "bbox": [
+            50,
+            5,
+            143,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1
+        }
+      ]
+    },
+    {
+      "state": "waving",
+      "expected_frames": 4,
+      "actual_frames": 4,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "./codex-pet-gait-fix/frames/waving/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13151,
+          "bbox": [
+            44,
+            5,
+            147,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 21
+        },
+        {
+          "index": 1,
+          "file": "./codex-pet-gait-fix/frames/waving/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13226,
+          "bbox": [
+            43,
+            5,
+            148,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 25
+        },
+        {
+          "index": 2,
+          "file": "./codex-pet-gait-fix/frames/waving/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13214,
+          "bbox": [
+            43,
+            5,
+            148,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 24
+        },
+        {
+          "index": 3,
+          "file": "./codex-pet-gait-fix/frames/waving/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13207,
+          "bbox": [
+            43,
+            5,
+            148,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 22
+        }
+      ]
+    },
+    {
+      "state": "jumping",
+      "expected_frames": 5,
+      "actual_frames": 5,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "./codex-pet-gait-fix/frames/jumping/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9561,
+          "bbox": [
+            49,
+            48,
+            141,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 21
+        },
+        {
+          "index": 1,
+          "file": "./codex-pet-gait-fix/frames/jumping/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10499,
+          "bbox": [
+            47,
+            26,
+            144,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 22
+        },
+        {
+          "index": 2,
+          "file": "./codex-pet-gait-fix/frames/jumping/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11226,
+          "bbox": [
+            45,
+            5,
+            146,
+            173
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 28
+        },
+        {
+          "index": 3,
+          "file": "./codex-pet-gait-fix/frames/jumping/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10662,
+          "bbox": [
+            46,
+            27,
+            145,
+            193
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 22
+        },
+        {
+          "index": 4,
+          "file": "./codex-pet-gait-fix/frames/jumping/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10207,
+          "bbox": [
+            49,
+            31,
+            142,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 21
+        }
+      ]
+    },
+    {
+      "state": "failed",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "./codex-pet-gait-fix/frames/failed/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12944,
+          "bbox": [
+            45,
+            5,
+            147,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 36
+        },
+        {
+          "index": 1,
+          "file": "./codex-pet-gait-fix/frames/failed/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12651,
+          "bbox": [
+            45,
+            10,
+            147,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 25
+        },
+        {
+          "index": 2,
+          "file": "./codex-pet-gait-fix/frames/failed/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12373,
+          "bbox": [
+            45,
+            16,
+            147,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 25
+        },
+        {
+          "index": 3,
+          "file": "./codex-pet-gait-fix/frames/failed/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12058,
+          "bbox": [
+            45,
+            23,
+            147,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 26
+        },
+        {
+          "index": 4,
+          "file": "./codex-pet-gait-fix/frames/failed/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12229,
+          "bbox": [
+            45,
+            19,
+            147,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 29
+        },
+        {
+          "index": 5,
+          "file": "./codex-pet-gait-fix/frames/failed/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12353,
+          "bbox": [
+            45,
+            15,
+            147,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 42
+        },
+        {
+          "index": 6,
+          "file": "./codex-pet-gait-fix/frames/failed/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12562,
+          "bbox": [
+            45,
+            8,
+            147,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 22
+        },
+        {
+          "index": 7,
+          "file": "./codex-pet-gait-fix/frames/failed/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12822,
+          "bbox": [
+            45,
+            5,
+            147,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 51
+        }
+      ]
+    },
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "./codex-pet-gait-fix/frames/waiting/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11704,
+          "bbox": [
+            49,
+            5,
+            143,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 25
+        },
+        {
+          "index": 1,
+          "file": "./codex-pet-gait-fix/frames/waiting/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11761,
+          "bbox": [
+            49,
+            5,
+            143,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 28
+        },
+        {
+          "index": 2,
+          "file": "./codex-pet-gait-fix/frames/waiting/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11756,
+          "bbox": [
+            49,
+            5,
+            143,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 28
+        },
+        {
+          "index": 3,
+          "file": "./codex-pet-gait-fix/frames/waiting/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11776,
+          "bbox": [
+            49,
+            5,
+            143,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 23
+        },
+        {
+          "index": 4,
+          "file": "./codex-pet-gait-fix/frames/waiting/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11760,
+          "bbox": [
+            49,
+            5,
+            143,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 16
+        },
+        {
+          "index": 5,
+          "file": "./codex-pet-gait-fix/frames/waiting/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11755,
+          "bbox": [
+            49,
+            5,
+            143,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 26
+        }
+      ]
+    },
+    {
+      "state": "running",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "./codex-pet-gait-fix/frames/running/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12251,
+          "bbox": [
+            49,
+            5,
+            142,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 23
+        },
+        {
+          "index": 1,
+          "file": "./codex-pet-gait-fix/frames/running/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12249,
+          "bbox": [
+            49,
+            5,
+            142,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 32
+        },
+        {
+          "index": 2,
+          "file": "./codex-pet-gait-fix/frames/running/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12242,
+          "bbox": [
+            49,
+            5,
+            142,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 16
+        },
+        {
+          "index": 3,
+          "file": "./codex-pet-gait-fix/frames/running/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12231,
+          "bbox": [
+            49,
+            5,
+            142,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 20
+        },
+        {
+          "index": 4,
+          "file": "./codex-pet-gait-fix/frames/running/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12220,
+          "bbox": [
+            49,
+            5,
+            142,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 15
+        },
+        {
+          "index": 5,
+          "file": "./codex-pet-gait-fix/frames/running/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12209,
+          "bbox": [
+            49,
+            5,
+            142,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 17
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "./codex-pet-gait-fix/frames/review/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11838,
+          "bbox": [
+            49,
+            5,
+            143,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 24
+        },
+        {
+          "index": 1,
+          "file": "./codex-pet-gait-fix/frames/review/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11768,
+          "bbox": [
+            49,
+            5,
+            143,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 17
+        },
+        {
+          "index": 2,
+          "file": "./codex-pet-gait-fix/frames/review/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11671,
+          "bbox": [
+            49,
+            5,
+            143,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 26
+        },
+        {
+          "index": 3,
+          "file": "./codex-pet-gait-fix/frames/review/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11698,
+          "bbox": [
+            49,
+            5,
+            143,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 27
+        },
+        {
+          "index": 4,
+          "file": "./codex-pet-gait-fix/frames/review/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11703,
+          "bbox": [
+            49,
+            5,
+            143,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 26
+        },
+        {
+          "index": 5,
+          "file": "./codex-pet-gait-fix/frames/review/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11671,
+          "bbox": [
+            49,
+            5,
+            143,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 24
+        }
+      ]
+    }
+  ]
+}
