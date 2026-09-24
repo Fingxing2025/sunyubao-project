@@ -4,27 +4,26 @@
 
 > **许可与商用限制：**本仓库公开源代码和素材，但全部内容仅允许个人非商业使用。**未经书面授权，严禁任何形式的商业使用。**合作请通过 [GitHub Issues](https://github.com/Fingxing2025/sunyubao-project/issues) 联系，完整条款见 [LICENSE](LICENSE) 和 [ASSET_LICENSE.md](ASSET_LICENSE.md)。
 
-## 当前状态
+## 最新版本
 
-当前推荐使用 `codex-pet-foot-forward` 中的 **夸张赤脚前伸版（内侧大拇趾修正）**：
+仓库新增 `codex-pet-idle-failed-swap` **待机与失落互换版**，基于 `codex-pet-foot-forward` 制作：
 
-- 安装包：`Sunyu-Baobao-夸张赤脚前伸版-内侧大拇趾修正.zip`
+- 安装包：`孙煜宝宝-待机失落互换版.zip`
 - 宠物 ID：`sunyu-baobao`
 - 图集规范：Codex v1，`1536 × 1872`，`9 × 8` 格
-- 更新范围：只替换 `running-right` 与 `running-left` 两个方向动作；其余 7 个动作保留自 `codex-pet-run-dynamics`
-- 内容：坐姿抱臂、赤脚脚底朝镜头前伸/回收；左右方向按镜像处理，两个大拇趾均位于画面内侧
+- 更新范围：交换 `idle`（待机）与 `failed`（失落）的动作画面；其他 7 个动作保持不变
 
-本工作区中的已安装副本与该版本的 `final/spritesheet.webp` 哈希一致。图集结构校验与逐帧人工复核均通过，详细证据见：
+图集结构检查和未修改动作行检查记录见：
 
-- `codex-pet-foot-forward/final/validation.json`
-- `codex-pet-foot-forward/qa/run-summary-final.json`
-- `codex-pet-foot-forward/qa/contact-sheet-inner-toe.png`
+- `codex-pet-idle-failed-swap/final/validation.json`
+- `codex-pet-idle-failed-swap/qa/row-preservation.json`
+- `codex-pet-idle-failed-swap/qa/contact-sheet.png`
 
-> 边界说明：最新版本的本地预览服务已返回 HTTP 200，但最后一次 Playwright 点击/截图没有完成，因此不把它表述为最终的浏览器交互验收。Codex 原生窗口仍需要在本机刷新列表、重新选择宠物后由使用者确认。
+Codex v1 的待机槽固定为 6 帧、失落槽固定为 8 帧；本版本按原生槽位抽帧和延长帧数，不更改客户端节奏。安装后请在设置的宠物/Mini 列表中刷新并重新选择桌宠。素材校验不代表原生窗口已完成重载验收。
 
-## 安装推荐版
+## 安装待机与失落互换版
 
-先解压 `codex-pet-foot-forward/Sunyu-Baobao-夸张赤脚前伸版-内侧大拇趾修正.zip`，其中会得到 `sunyu-baobao/` 文件夹。
+先解压 `codex-pet-idle-failed-swap/孙煜宝宝-待机失落互换版.zip`，其中会得到 `sunyu-baobao/` 文件夹。
 
 1. 如已安装同名桌宠，先把现有 `sunyu-baobao` 文件夹改名或复制到安全位置备份。
 2. 将解压出的 `sunyu-baobao/` 放到下列宠物目录：
@@ -34,12 +33,12 @@
    | macOS / Linux | `~/.codex/pets/sunyu-baobao/` |
    | Windows | `%USERPROFILE%\.codex\pets\sunyu-baobao\` |
 
-3. 在 Codex 的设置中刷新宠物/Mini 列表，重新选择「Sunyu Baobao」；如未加载，重启 Codex 后再次选择。
+3. 在 Codex 的设置中刷新宠物/Mini 列表，重新选择「孙煜宝宝」；如未加载，重启 Codex 后再次选择。
 
 macOS / Linux 示例（这些命令会创建目标目录并覆盖同名的两个资源文件；执行前请完成第 1 步备份）：
 
 ```bash
-unzip "codex-pet-foot-forward/Sunyu-Baobao-夸张赤脚前伸版-内侧大拇趾修正.zip" -d /tmp/sunyu-baobao-install
+unzip "codex-pet-idle-failed-swap/孙煜宝宝-待机失落互换版.zip" -d /tmp/sunyu-baobao-install
 mkdir -p "$HOME/.codex/pets/sunyu-baobao"
 cp /tmp/sunyu-baobao-install/sunyu-baobao/pet.json "$HOME/.codex/pets/sunyu-baobao/"
 cp /tmp/sunyu-baobao-install/sunyu-baobao/spritesheet.webp "$HOME/.codex/pets/sunyu-baobao/"
@@ -56,10 +55,11 @@ cp /tmp/sunyu-baobao-install/sunyu-baobao/spritesheet.webp "$HOME/.codex/pets/su
 | `codex-pet-gait-fix` | 手脚交替修复 | 修复两个方向小跑的支撑与交替关系 |
 | `codex-pet-fluid` | 关节补间小跑 | 对方向小跑行进行程序化关节插值 |
 | `codex-pet-wide-gait` | 大步幅实验版 | 仅更新两个方向小跑行；与后续动态版并列保留作对照 |
-| `codex-pet-run-dynamics` | 动态跑步基线 | 大跨步、后脚腾空、反向摆臂；是当前推荐版其余 7 个动作的来源 |
-| `codex-pet-foot-forward` | **当前推荐版** | 两个方向动作改为赤脚脚底前伸，已生成最终安装包与验收材料 |
+| `codex-pet-run-dynamics` | 动态跑步基线 | 大跨步、后脚腾空、反向摆臂；是 `codex-pet-foot-forward` 与互换版其余 7 个动作的来源 |
+| `codex-pet-foot-forward` | 互换版的基础版本 | 两个方向动作改为赤脚脚底前伸，已生成最终安装包与验收材料 |
+| `codex-pet-idle-failed-swap` | **最新版本** | 只调整 `idle` 与 `failed` 两个状态的画面；其他七个状态保持不变 |
 
-除推荐版外，其余目录主要用于回退、对照和复现；不要依据目录名称推断它们是当前默认安装版本。
+较早目录主要用于回退、对照和复现；不要依据目录名称推断它们是当前默认安装版本。
 
 ## 目录约定
 
@@ -88,7 +88,7 @@ codex-pet-<version>/
 ## 协作注意事项
 
 - 大部分成果为图片和压缩包等二进制文件；不要无意转码或批量重压缩。
-- 当前工作区包含尚未提交的较新版本和验收材料。推送前请先检查版本目录、安装包和 README 是否在同一次提交中，避免远程仓库只有说明而缺少对应资源。
+- 发布新版本时，请把版本目录、安装包和 README 放在同一次提交中，避免仓库只有说明而缺少对应资源。
 - 任何“已安装”或“可选中”的结论都应区分资源哈希、浏览器预览和 Codex 原生窗口三种验证层级。
 
 ## 许可、AI 与品牌声明

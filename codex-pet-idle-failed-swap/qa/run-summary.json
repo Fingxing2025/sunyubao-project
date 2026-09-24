@@ -1,0 +1,49 @@
+{
+  "ok": true,
+  "version": "codex-pet-idle-failed-swap",
+  "source_version": "codex-pet-foot-forward",
+  "changed_states": [
+    "idle",
+    "failed"
+  ],
+  "preserved_states": [
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "frame_mapping": {
+    "idle_row_0_from_failed_row_5_columns": [
+      0,
+      1,
+      3,
+      4,
+      6,
+      7
+    ],
+    "failed_row_5_from_idle_row_0_columns": [
+      0,
+      1,
+      1,
+      2,
+      3,
+      4,
+      4,
+      5
+    ],
+    "reason": "The native idle slot has 6 frames and failed slot has 8; source poses are sampled or held to fill each fixed slot without blank frames."
+  },
+  "package": "孙煜宝宝-待机失落互换版.zip",
+  "contact_sheet": "qa/contact-sheet.png",
+  "validation": "final/validation.json",
+  "row_preservation": "qa/row-preservation.json",
+  "sha256": {
+    "source_spritesheet_webp": "72f9d1288d218bcbaaf2345b1d9b3b0493ab21a2f8ca763751e901ff36ab1264",
+    "spritesheet_webp": "b29445bcbf8e615f4a411aaa795728f121fb9cb84ec381af990591769eb52c6b",
+    "package_zip": "ea6e4af936aac6cffdabaa27629a9efb7ca87392850995b0e396c11c9720bd87"
+  },
+  "errors": []
+}

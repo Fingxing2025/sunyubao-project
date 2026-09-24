@@ -1,0 +1,94 @@
+{
+  "source": "codex-pet-foot-forward/final/spritesheet.png",
+  "changed_rows": [
+    0,
+    5
+  ],
+  "preserved_rows": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8
+  ],
+  "all_preserved_rows_pixel_identical": true,
+  "rows": [
+    {
+      "row": 0,
+      "state": "idle",
+      "changed": true,
+      "pixel_identical": false
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "changed": false,
+      "pixel_identical": true
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "changed": false,
+      "pixel_identical": true
+    },
+    {
+      "row": 3,
+      "state": "waving",
+      "changed": false,
+      "pixel_identical": true
+    },
+    {
+      "row": 4,
+      "state": "jumping",
+      "changed": false,
+      "pixel_identical": true
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "changed": true,
+      "pixel_identical": false
+    },
+    {
+      "row": 6,
+      "state": "waiting",
+      "changed": false,
+      "pixel_identical": true
+    },
+    {
+      "row": 7,
+      "state": "running",
+      "changed": false,
+      "pixel_identical": true
+    },
+    {
+      "row": 8,
+      "state": "review",
+      "changed": false,
+      "pixel_identical": true
+    }
+  ],
+  "frame_mapping": {
+    "idle_row_0_from_failed_row_5_columns": [
+      0,
+      1,
+      3,
+      4,
+      6,
+      7
+    ],
+    "failed_row_5_from_idle_row_0_columns": [
+      0,
+      1,
+      1,
+      2,
+      3,
+      4,
+      4,
+      5
+    ],
+    "reason": "The native idle slot has 6 frames and failed slot has 8; source poses are sampled or held to fill each fixed slot without blank frames."
+  }
+}
